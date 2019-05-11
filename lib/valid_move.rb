@@ -6,3 +6,5 @@
 def position_taken?(board, index)
   index && [" ", "", nil].includes? board[index]
 end
+
+
